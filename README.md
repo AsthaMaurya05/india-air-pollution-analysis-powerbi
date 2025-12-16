@@ -1,68 +1,88 @@
-# india-air-pollution-analysis-powerbi
-
 # 🌏 India Air Quality Analysis Dashboard (Power BI)
 
-This Power BI project provides an in-depth analysis of India’s air quality using monitoring station data, pollutant severity levels, and public health impact indicators.  
-It is designed to support **public health awareness**, **policy decision-making**, and **pollution trend monitoring** across Indian states and cities.
+## 📌 Project Overview
+This project presents a comprehensive **Power BI dashboard for analyzing air pollution levels across India** using monitoring station data.  
+The dashboard is designed to support **public health awareness**, **environmental analysis**, and **policy-level understanding** by providing clear insights into pollution severity across states, cities, and pollutants.
+
+The project follows a structured data analytics workflow including **data cleaning, data modeling, DAX-based measures, and multi-page interactive visualization**.
 
 ---
 
-## 🚀 Dashboard Pages Overview
+## 📊 Dashboard Pages Overview
 
-### 📌 **Page 1 — India Air Quality Overview Dashboard**
-This page provides a high-level summary of India’s nationwide pollution condition.
+### 🧭 Page 1 — India Air Quality Overview
+This page provides a **national-level snapshot** of air pollution trends across India.
 
 **Key Features**
-- Scatter plot showing **pollution hotspots** across monitoring stations  
-- KPI cards:
+- Geographic scatter visualization showing **pollution hotspots by monitoring station**
+- KPI indicators:
   - Total Active Monitoring Stations  
   - Highest Pollution Detected (Peak Value)  
-  - Average Pollution Level
-- Top 10 most polluted cities  
-- State-wise average AQI comparison  
-- Filters for state and pollutant type  
-- Key observations summarizing national-level insights
+  - India Average Pollution Level
+- Top 10 most polluted cities
+- State-wise average pollution comparison
+- Interactive slicers for **State** and **Pollutant**
+- Summary observations highlighting national trends
+
+**Purpose:**  
+To provide a quick and clear overview for **general public awareness and high-level decision-making**.
 
 ---
 
-### 📌 **Page 2 — Pollutant Analysis**
-This page dives deep into pollutant-specific patterns across cities and states.
+### 🧪 Page 2 — Pollutant Analysis
+This page focuses on **pollutant-wise analysis** to understand how different pollutants impact air quality across regions.
 
 **Key Features**
-- City-wise pollutant comparisons (CO, NH3, NO2, OZONE, PM10, PM2.5, SO2)  
-- Horizontal bar chart for state-wise pollutant severity  
-- Donut chart showing pollution share by pollutant type  
-- KPI cards for:
-  - Most Dangerous Pollutant Value  
-  - Most Polluted Station  
-  - Most Polluted City
-- Interactive filters for pollutant and state  
-- Detailed monitoring station pollution table (min/max/avg values)
+- City-wise and state-wise pollutant severity analysis  
+- Pollutant contribution analysis using a donut chart  
+- KPI indicators highlighting peak pollution severity  
+- Detailed monitoring station table showing minimum, maximum, and average values  
+- Interactive filtering by **State** and **Pollutant**
+
+**Purpose:**  
+To support **academic analysis, research interpretation, and environmental monitoring**.
 
 ---
 
-### 📌 **Page 3 — Health Risk & Insights**
-This page highlights the public health impact of pollution severity.
+### 🚨 Page 3 — Health Risk & Insights
+This page translates pollution levels into **public health risk categories**.
 
 **Key Features**
-- Distribution of cities by Health Risk Category  
-- State-wise Health Risk Severity comparison  
-- Treemap of major high-risk cities across India  
-- Filters for states & pollutants  
-- Public health insights:
-  - High Risk (Avg > 150) → immediate lung danger  
-  - Moderate Risk (80–150) → respiratory irritation & long-term impact  
-  - Low Risk (< 80) → relatively safer  
-- Notes on how pollutants affect human health (PM2.5, CO, Ozone, etc.)
+- Classification of cities into **High, Moderate, and Low health risk levels**
+- State-wise health risk severity comparison
+- Treemap highlighting major high-risk cities
+- Filters for **State** and **Pollutant**
+- Public health insights explaining the effects of pollutants such as PM2.5, PM10, CO, NO₂, and Ozone
+
+**Purpose:**  
+To emphasize the **societal and health impact** of air pollution and support awareness initiatives.
 
 ---
 
-## 📁 Folder Structure
+## 🧠 Data Modeling & Techniques Used
+- Power Query for data cleaning, transformation, and preparation  
+- Fact and Dimension tables (State, City) with proper relationships  
+- Star-schema style data modeling  
+- DAX measures for KPIs and aggregated insights  
+- Interactive slicers for multi-dimensional analysis  
+
+---
+
+## 🛠 Tools & Technologies
+- **Power BI Desktop**
+- **Power Query**
+- **DAX (Data Analysis Expressions)**
+- **CSV / Excel data sources**
+- **Data visualization best practices**
+
+---
+
+## 📁 Repository Structure
 project_files/
 └── India_Air_Quality_Dashboard.pbix
 
 data/
-└── (CSV/Excel files used in Power BI)
+└── CSV / Excel datasets used in the dashboard
 
 screenshots/
 ├── page1_overview.png
@@ -70,46 +90,26 @@ screenshots/
 └── page3_health_risk_insights.png
 
 
+---
+
+## 📦 How to Use the Project
+
+1. Clone or download this repository.
+2. Open the `.pbix` file using **Power BI Desktop**.
+3. Ensure the dataset files are placed in the `data` folder.
+4. Click **Refresh** to load the visuals.
 
 ---
 
-## 📦 How to Use This Project
-
-### 1️⃣ Clone or Download the Repository
-Download using ZIP or Git clone.
-
-### 2️⃣ Open `.pbix` File in Power BI Desktop
-Ensure that Power BI Desktop is installed (free on Microsoft Store).
-
-### 3️⃣ Load the Dataset
-Place the files in the **data** folder as expected by the PBIX.  
-Click **Refresh** to load all visuals.
+## 🎓 Learning Outcomes
+Through this project, I gained practical experience in:
+- Designing an end-to-end Power BI analytics solution  
+- Applying data modeling concepts and DAX measures  
+- Building multi-page dashboards with meaningful insights  
+- Translating raw data into actionable public health information  
 
 ---
 
-## 🛠 Tools Used
-- **Power BI Desktop**
-- **Power Query**
-- **DAX Measures**
-- **Excel / CSV Data Cleaning**
-- **Data Visualization Techniques**
-
----
-
-## ⭐ Project Highlights
-- Complete end-to-end data analytics project  
-- Multi-page interactive dashboard  
-- Real-world insights related to Indian cities  
-- Clean UI + meaningful health and environmental indicators  
-- Perfect for portfolio & resume
-
----
-
-## 🤝 Contribution
-Feel free to fork this project or suggest improvements.
-
-If you like the dashboard, consider giving the repo a ⭐ on GitHub!
-
-
-## 📁 Folder Structure
-
+## 🤝 Contributions
+Suggestions and improvements are welcome.  
+This project is intended for **academic and learning purposes**.
